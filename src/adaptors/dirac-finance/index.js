@@ -39,12 +39,10 @@ const main = async () => {
 
 module.exports = {
     timetravel: false,
-    apy: {
-        pool: '0xa9154A433E879fa0E948eA208Aa359271Dc40469-polygonzkevm'.toLocaleLowerCase(),
-        chain: 'polygonZkEvm',
-        project: 'dirac-finance',
-        symbol: 'DVT',
-        tvlUsd: 200,
-    },
+    pool: '0xa9154A433E879fa0E948eA208Aa359271Dc40469-polygonzkevm'.toLocaleLowerCase(),
+    chain: 'polygonZkEvm',
+    project: 'dirac-finance',
+    symbol: 'DVT',
+    tvlUsd: 200,
     url: 'https://dirac.finance/',
 };
